@@ -26,6 +26,6 @@ export default class ChatScreen extends Component {
                     onChangeText={msg => this.setState({ msg })}
                 />
             </View>
-        );
+        ); 
     }
 }
